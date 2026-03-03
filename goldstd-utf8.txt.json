@@ -1,0 +1,251 @@
+{
+  "md5checksum": "091de60012a27af1bc023a9b263d4254",
+  "insertpos": "1428.0",
+  "insertpospeer": "1465.0",
+  "pagedetails": {
+    "001": {
+      "index": "1.0",
+      "style": "Arabic",
+      "number": "1",
+      "label": "Pg 1"
+    },
+    "002": {
+      "index": "28.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 2"
+    },
+    "003": {
+      "index": "38.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 3"
+    },
+    "004": {
+      "index": "78.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 4"
+    },
+    "005": {
+      "index": "116.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 5"
+    },
+    "006": {
+      "index": "154.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 6"
+    },
+    "007": {
+      "index": "191.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 7"
+    },
+    "008": {
+      "index": "232.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 8"
+    },
+    "009": {
+      "index": "272.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 9"
+    },
+    "010": {
+      "index": "310.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 10"
+    },
+    "011": {
+      "index": "351.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 11"
+    },
+    "012": {
+      "index": "388.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 12"
+    },
+    "013": {
+      "index": "427.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 13"
+    },
+    "014": {
+      "index": "464.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 14"
+    },
+    "015": {
+      "index": "503.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 15"
+    },
+    "016": {
+      "index": "540.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 16"
+    },
+    "017": {
+      "index": "578.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 17"
+    },
+    "018": {
+      "index": "616.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 18"
+    },
+    "019": {
+      "index": "655.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 19"
+    },
+    "020": {
+      "index": "694.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 20"
+    },
+    "021": {
+      "index": "735.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 21"
+    },
+    "022": {
+      "index": "774.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 22"
+    },
+    "023": {
+      "index": "812.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 23"
+    },
+    "024": {
+      "index": "850.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 24"
+    },
+    "025": {
+      "index": "891.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 25"
+    },
+    "026": {
+      "index": "929.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 26"
+    },
+    "027": {
+      "index": "967.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 27"
+    },
+    "028": {
+      "index": "1005.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 28"
+    },
+    "029": {
+      "index": "1044.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 29"
+    },
+    "030": {
+      "index": "1083.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 30"
+    },
+    "031": {
+      "index": "1121.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 31"
+    },
+    "032": {
+      "index": "1160.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 32"
+    },
+    "033": {
+      "index": "1197.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 33"
+    },
+    "034": {
+      "index": "1237.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 34"
+    },
+    "035": {
+      "index": "1277.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 35"
+    },
+    "036": {
+      "index": "1315.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 36"
+    },
+    "037": {
+      "index": "1352.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 37"
+    },
+    "038": {
+      "index": "1390.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 38"
+    },
+    "039": {
+      "index": "1428.0",
+      "style": "\"",
+      "number": "+1",
+      "label": "Pg 39"
+    }
+  },
+  "imagedir": "/Users/dan/dp/pp/goldstd/pngs",
+  "projectid": "projectID624c94ea72f43",
+  "languages": "en+fr+de",
+  "charsuites": {
+    "Basic Latin": true
+  },
+  "bookmarks": {
+    "Bookmark1": "1.0"
+  },
+  "imagerotate": {}
+}
