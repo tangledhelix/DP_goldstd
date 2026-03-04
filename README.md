@@ -36,6 +36,8 @@ This is fairly straightforward text. If you have any questions, please ask in th
 
 ### Transcriber's notes ###
 
+p. 9: rendered “15 1-7” as “15⅐” based on context.
+
 ### HTML file review ###
 The iPhone/iPad simulators can't use `file://` URLs. Start a local web server with `python3 -m http.server` in the project directory and going to `localhost:8000` in Safari on the device. 
 
