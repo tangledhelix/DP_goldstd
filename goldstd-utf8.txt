@@ -2,7 +2,7 @@
 
 
 
-/*
+/x
 The Gold Standard.
 
 [Illustration]
@@ -23,16 +23,16 @@ BY
 The Evening Post Publishing Co.,
 
 NEW YORK CITY.
-*/
+x/
 
 
 
 
-/*
+/x
 <i>Copies of this pamphlet may be obtained at 5 cents a copy, postpaid.
 Address</i> <sc>The Evening Post Publishing Company</sc>,
 <i>206-210 Broadway, New York City</i>.
-*/
+x/
 
 
 
