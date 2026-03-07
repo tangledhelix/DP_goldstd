@@ -36,6 +36,8 @@ This is fairly straightforward text. If you have any questions, please ask in th
 
 ### Transcriber's notes ###
 
+TEXT only: Small capitals changed to all capitals.
+
 p. 9: changed as-printed “15 1-7” to “15⅐”, based on context.
 
 ### HTML file review ###
