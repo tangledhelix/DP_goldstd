@@ -172,7 +172,7 @@ Guiguts has fraction conversion tools: Tools → Convert Fractions
 
 This regex: `([¹²³⁴⁵⁶⁷⁸⁹⁰]+⁄[₁₂₃₄₅₆₇₈₉₀]+|[¼½¾⅓⅔⅕⅖⅗⅘⅙⅚⅛⅜⅝⅞⅐⅑⅒↉])` may be of use to locate fractions once converted.
 
-* [ ] Handle any fractions
+* [x] Handle any fractions
 
 ### Unicode EN dashes
 For now, process only EN dash. The EM dash and long dash (2x EM) are left for after the text/html split.
