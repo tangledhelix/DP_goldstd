@@ -281,7 +281,7 @@ abbr.spell { speak: spell-out; }
 
 /* "gray bar" blockquotes */
 blockquote {
-    border-left: .15em solid #c8c8c8;
+    /*border-left: .15em solid #c8c8c8;*/
     padding-left: .7em;
     margin-left: 4%;
     margin-right: 8%;
