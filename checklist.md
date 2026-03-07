@@ -273,7 +273,7 @@ There exists another dash (HORIZONTAL BAR, U+2015) which one PM/PP prefers to EM
 
 References: ([p1347865](https://www.pgdp.net/phpBB3/viewtopic.php?p=1347865#p1347865)), ([p1179008](https://www.pgdp.net/phpBB3/viewtopic.php?p=1179008#p1179008))
 
-* [ ] [Em dash](https://www.pgdp.net/wiki/Em-dash):
+* [x] [Em dash](https://www.pgdp.net/wiki/Em-dash):
   * `Tools → Regex Library` and load the dashes.json file
   * Use only the first regex (em-dash) and ignore the others, which were done already.
   * Since we treat a long dash as two em-dashes, this takes care of both.
