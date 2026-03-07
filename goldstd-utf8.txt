@@ -200,7 +200,7 @@ of Parliament on its present basis, the essential part
 of this act being in the following words:
 
 /#
-"XI. And whereas at various times heretofore the
+“XI. And whereas at various times heretofore the
 coins of this realm of gold and silver have been equally
 a legal tender for payments to any amount, and <i>great
 inconvenience has arisen from both those precious metals
@@ -213,22 +213,22 @@ limitation of amount, and that the silver coin should
 be a legal tender to a limited amount only, for the
 facility of exchange and commerce;
 
-"Be it therefore enacted, That from and after the
+“Be it therefore enacted, That from and after the
 passing of this act, the gold coin of this realm shall be
 and shall be considered and is hereby declared to be
 the only legal tender for payments, except as hereinafter
 provided, * * * and no tender of payment
 of money made in the silver coin of this realm of any
 sum exceeding the sum of forty shillings at any one
-time shall be reputed a tender in law, etc."
+time shall be reputed a tender in law, etc.”
 #/
 
 This is a brief résumé of the experience and legislation
 of Great Britain. It is important as showing
 that the single gold standard was adopted on account
-of the "great inconvenience" of the double standard,
+of the “great inconvenience” of the double standard,
 which had been in vogue previously. Of course, this
-"inconvenience" had attracted the attention of
+“inconvenience” had attracted the attention of
 learned men before 1798. John Locke had shown
 that a double standard composed of two things of
 varying value was an impossibility. He favored the
@@ -244,7 +244,7 @@ silver. So they did it for two years, and then for
 two years more, and so on, till 1798-99, when they
 had become satisfied by the experience of twenty-five
 years that the single gold standard was the right
-thing to put an end to the "inconvenience." Seventeen
+thing to put an end to the “inconvenience.” Seventeen
 years later, the experiment having continued to
 be successful, they passed the law which I have
 quoted. That law, in substance, remains in force to
@@ -294,8 +294,8 @@ single gold standard. What is certain is that Congress
 adopted the ratio of 16 to 1 in 1834 by very
 large majorities in spite of proofs urgently presented
 that this ratio would drive silver out of circulation
-altogether, as it did. This bill was called the "Gold
-Bill" in the discussions of the time. As reported by
+altogether, as it did. This bill was called the “Gold
+Bill” in the discussions of the time. As reported by
 the special committee, it provided for a ratio of 15.60
 to 1, but when it came up for discussion, Mr. Campbell
 P. White, the Chairman of the Committee, who
@@ -320,7 +320,7 @@ the measure, declared that the object of his endeavors
 was:
 
 /#
-"To enable the friends of gold to go to work at the
+“To enable the friends of gold to go to work at the
 right place to effect the recovery of that precious metal
 which their fathers once possessed, which the subjects
 of European kings now possess, which the citizens of
@@ -331,7 +331,7 @@ for more than twenty years, and will be deprived
 forever unless they discover the cause of the
 evil and apply the remedy to its root.--[Speech of
 Senator Benton of Missouri, quoted by Louis R.
-Ehrich in his 'Question of Silver.']"
+Ehrich in his ‘Question of Silver.’]”
 #/
 
 The effect that was predicted was abundantly
@@ -354,7 +354,7 @@ were worth about one cent and a half more than a
 gold dollar. Consequently they would be collected
 by brokers, melted and exported. But two halves,
 four quarters, or ten dimes, that had lost one and a half
-cents' worth of silver by abrasion, would circulate, because
+cents’ worth of silver by abrasion, would circulate, because
 there would be no motive to melt or export them.
 There would be no profit in it. When I was a boy
 the silver money of this country consisted exclusively
@@ -454,7 +454,7 @@ from circulation. At all events, it did so, to the
 satisfaction of the people. It is a great pity that our
 ancestors in 1834 did not put their intentions into the
 form of law at that time. If they had done so they
-would have spared us a Pandora's box, to be opened
+would have spared us a Pandora’s box, to be opened
 forty years later.
 
 Bimetallism was abolished in the United States by
@@ -468,7 +468,7 @@ notes. Let us imagine for a moment that silver had
 not fallen in price after 1873. Would anybody ever
 have missed the silver dollar? Would anybody have
 doubted that the gold standard was brought about in
-this country by natural causes operating upon men's
+this country by natural causes operating upon men’s
 minds in the same way as it was in England, the
 action of Congress in 1873 merely giving the form of
 law to what had been done practically at an earlier
@@ -483,7 +483,7 @@ alone, she used for her international and wholesale
 trade a heterogeneous assortment of gold coins, partly
 domestic and partly foreign, including napoleons,
 pistoles, guineas, eagles, Russian imperials, Friedrichs
-d'or, ducats, crowns, &c., passing as commercial
+d’or, ducats, crowns, &c., passing as commercial
 money. The question of a reform of the currency
 had been under discussion by the economists and publicists
 of Germany for nearly ten years, but until 1868
@@ -532,7 +532,7 @@ GERMAN MONETARY LAW OF 1871.
 On the 5th of November, 1871, the Finance Minister
 of the new German Empire, Herr Delbrück, presented
 to the Imperial Diet a brief report of the
-"motives" which had led the Government to propose
+“motives” which had led the Government to propose
 a measure for the unification of the German coinage.
 This measure provided for the coinage of gold pieces
 of ten and twenty marks, and it discontinued the coinage
@@ -550,8 +550,8 @@ acquired any standing in international commerce,
 being melted down as soon as they reached the frontier.
 Consequently the internal commerce of Germany was
 confined to the use of bulky and inconvenient silver
-coins. "The inconvenience of silver coins," says the
-report, "led of necessity to a very considerable circulation
+coins. “The inconvenience of silver coins,” says the
+report, “led of necessity to a very considerable circulation
 of paper, which, in ordinary times, is taken
 as a welcome facility, but in critical times contains
 the germs of serious dangers. The artificial
@@ -559,7 +559,7 @@ demand for paper created by the exclusive
 circulation of silver made it almost
 impossible to adopt any radical and rational
 regulation of the banking system through laws common
-to all Germany." For these reasons--namely,
+to all Germany.” For these reasons--namely,
 that silver was bulky and inconvenient, and that it
 brought about a forced circulation of paper and prevented
 any wise regulation of bank issues--the single
@@ -633,8 +633,8 @@ between these recoinages and the metal ratios
 except that the divergencies between the legal and
 market ratios, whenever they were discovered, were
 seized upon by the Government as an excuse for further
-debasement. They "fell back alternately from
-gold to silver and from silver to gold," says Béranger,
+debasement. They “fell back alternately from
+gold to silver and from silver to gold,” says Béranger,
 making a profit to the royal treasury each time. M.
 Calonne, Comptroller-General under Louis XVI., has
 given us a list of the principal recoinages prior to his
@@ -678,9 +678,9 @@ the single silver standard by a law, the first
 paragraph of which reads as follows:
 
 /#
-"General provision.--Five grams of silver, nine-tenths
+“General provision.--Five grams of silver, nine-tenths
 fine, constitute the monetary unit which retains
-the name of franc."
+the name of franc.”
 #/
 
 But they were confronted by the fact that gold was
@@ -699,7 +699,7 @@ Such was the law of 1803. Although it was the intention
 of the lawmakers to establish the single silver
 standard, the clause which they introduced allowing
 the coinage of gold was the same thing in effect as
-re-enacting Calonne's law of 1785. It was in practice,
+re-enacting Calonne’s law of 1785. It was in practice,
 though not in intention, a bimetallic law at the ratio
 of 15-1/2 to 1.
 
@@ -708,9 +708,9 @@ plunged into wars which lasted till 1815. Of course,
 the nation had very little time to think about her
 coinage laws. Gradually the price of gold rose above
 the legal ratio, and that metal was exported to such
-an extent that Chevalier tells us that "twenty-five
+an extent that Chevalier tells us that “twenty-five
 years after that date [1803] the circulation consisted
-of silver only." Abundant proofs can be adduced
+of silver only.” Abundant proofs can be adduced
 showing that bimetallism did not exist in practice in
 France between 1820 and 1847. Mr. Griffen has published
 a table showing the premium on gold in Paris
@@ -815,9 +815,9 @@ custom and tradition. They still desired, like their
 ancestors of the Revolution, to have the silver standard
 with gold as a subordinate metal. They allowed
 events to drift until 1873, when they were startled to
-find that 154,000,000 francs' worth of silver had been
+find that 154,000,000 francs’ worth of silver had been
 deposited at the mint for coinage in that year, against
-only 5,000,000 francs' worth in 1871-2. The amount
+only 5,000,000 francs’ worth in 1871-2. The amount
 of silver so deposited was more than the mint could
 coin in a year and a half, if it did nothing else. The
 market ratio of gold had risen nearly to 15.75. There
@@ -836,8 +836,8 @@ allotted share of silver. Belgium had passed a law
 authorizing the Government to stop coining that
 metal. M. Leon Say, the French Minister of Finance,
 sent to the Senate March 21, 1876, a bill of only two
-lines, in these words, viz.: "The coinage of silver
-five-franc pieces may be limited or suspended by decree."
+lines, in these words, viz.: “The coinage of silver
+five-franc pieces may be limited or suspended by decree.”
 The Senate Committee to which it was referred,
 under the lead of M. de Parieu, reported a
 more drastic measure absolutely forbidding the coinage
@@ -907,7 +907,7 @@ immense quantities of silver began to flow to the mint.
 Silver florins passed in trade at the old ratio of 15.60
 because they were limited in quantity, but it was obvious
 that they would soon fall to the bullion value of
-silver. So in December, 1874, a new six-months' suspension
+silver. So in December, 1874, a new six-months’ suspension
 of coinage was ordered by the legislative
 body--the same one that had refused to adopt the
 single gold standard. Before this period had elapsed
@@ -957,14 +957,14 @@ that it had become clear as long ago as the decade
 1860-1870, when Europe was becoming saturated
 with gold, that this was the only metal fitted to be
 the standard of nations of advanced civilization.
-"Gold was dominant and the standard of value,"
-says this report, "in all trade on a great scale as early
+“Gold was dominant and the standard of value,”
+says this report, “in all trade on a great scale as early
 as the fourteenth and fifteenth centuries, even though
 silver was then the standard in all domestic exchanges.
 * * * <i>In every age there is some metal
 dominant in the industry of the world which forces its
 way with elemental strength in the face of any public
-regulation, and in our day gold is that metal.</i>"
+regulation, and in our day gold is that metal.</i>”
 
 This is as good a statement as can be made of the
 reasons why not only Austria but all the other nations
@@ -972,7 +972,7 @@ whose action we have examined, including the United
 States, have adopted the single gold standard.
 While Austria has been collecting her supply of the
 yellow metal we have heard a great deal about the
-"scramble for gold." Why is there a scramble for
+“scramble for gold.” Why is there a scramble for
 gold? Merely because gold is universally acceptable.
 All civilized people are willing to exchange their
 property for it to any extent, and this is the only
@@ -1007,14 +1007,14 @@ and liking I cannot alter the monetary standard of
 Christendom. It is this preference which paralyzes
 all the international monetary conferences. The
 secret thought of the delegates in the Brussels Conference
-was something like this: "What would happen
+was something like this: “What would happen
 the day after international bimetallism if the
 commercial classes should continue to prefer one
-ounce of gold to sixteen ounces of silver?" Any responsible
+ounce of gold to sixteen ounces of silver?” Any responsible
 minister of finance must recoil before that
 query.
 
-I think that the "scramble for gold" would be
+I think that the “scramble for gold” would be
 worse the day after the bimetallic treaty than it was the
 day before, because everybody would suspect everybody
 else of gratifying his secret desire for gold at
@@ -1041,7 +1041,7 @@ NO STEPS BACKWARD.
 If the successive steps that we have described,
 whereby the nations have arrived one by one at the
 single gold standard, had been the result of a hundred
-years' conspiracy against the "debtor class," instead
+years’ conspiracy against the “debtor class,” instead
 of being a natural evolution beneficial to all classes, I
 should still be unable to see any advantage in changing
 back. Whatever mischief appertains to this evolution
@@ -1056,7 +1056,7 @@ disclosing themselves to the various international conferences
 held for their benefit. They are very backward
 in coming forward.
 
-What is meant by "debtor class" in this discussion?
+What is meant by “debtor class” in this discussion?
 All men who are not bankrupt are both creditors and
 debtors. The fact that they are not bankrupt implies
 that they have more due to them in one way and
@@ -1126,7 +1126,7 @@ commodities, nor can I admit that such a decline
 would be a bad thing. None of us, when we go to
 market, complain that prices of food, fuel, clothing,
 etc., are too low. Mr. David A. Wells has written a
-book entitled "Recent Economic Changes," which
+book entitled “Recent Economic Changes,” which
 accounts for the fall in price of all staple articles of
 commerce which really have fallen during the past
 twenty years, accounts for it by the increased facilities
@@ -1222,12 +1222,12 @@ ACT OF 1873.
 
 A correspondent for whom we have a good deal of
 respect writes to us to remonstrate once more against
-the Silver-Demonetizing Act of 1873. "Just as soon
-as it was discovered," says this writer, "that bimetallism
+the Silver-Demonetizing Act of 1873. “Just as soon
+as it was discovered,” says this writer, “that bimetallism
 was abolished, and before silver had fallen in
 price, Mr. Bland, the humorist, as Mr. White is
 pleased to call him, attempted to restore to the people
-a right that had been unwittingly taken from them."
+a right that had been unwittingly taken from them.”
 The record shows that neither Mr. Bland nor anybody
 else attempted to remonetize silver until after it
 had fallen in price more than 5d. per ounce. When the
@@ -1236,11 +1236,11 @@ was 59-3/4d. When Mr. Bland introduced his bill
 (November, 1877), the quotation was 54-1/2d. But that
 is not very important now.
 
-The assumption that "the people" had "a right"
-which was "unwittingly" taken from them embraces
+The assumption that “the people” had “a right”
+which was “unwittingly” taken from them embraces
 a congeries of errors which need to be exposed--all
 the more because they are honestly entertained. In
-the first place, who are "the people" who had a right
+the first place, who are “the people” who had a right
 that was unwittingly taken from them? Of course,
 they were the people of the United States. How do
 we know what the people of the United States want
@@ -1252,7 +1252,7 @@ Congress which was the sole organ of the people as
 to such matters--passed by a vote unanimous in one
 branch and nearly unanimous in the other.
 
-"But <i>we</i> did not understand it," says somebody
+“But <i>we</i> did not understand it,” says somebody
 who was not a member of Congress. It was not
 necessary that you should understand it. This would
 be a queer country if it were necessary that all the
@@ -1272,7 +1272,7 @@ by public officers and also in public debate.
 
 If we could get an impartial jury from another
 country or another planet to try this question, that
-jury would be bound to decide that "the people"
+jury would be bound to decide that “the people”
 passed that Act of 1873 in its entirety, in the only way
 they ever pass an act applicable to the whole Union.
 The impartial jury would probably add that since
@@ -1285,7 +1285,7 @@ Congress which passed the Act of 1873. They voted
 down the remonetization of silver on the 21st of February,
 1878, when they substituted the Allison Bill
 for the Bland Bill by yeas 203, nays 72. They voted
-it down on the 8th of April, 1886, on Mr. Bland's
+it down on the 8th of April, 1886, on Mr. Bland’s
 direct motion for the free coinage of silver, yeas 126,
 nays 163. They voted it down on the 19th of June,
 1890, on a motion to concur in the Senate free-coinage
@@ -1296,7 +1296,7 @@ majority against Mr. Bland was only two votes in
 this case--150 to 148--but it was sufficient for the
 purpose.
 
-But we are told that "a right" was taken away
+But we are told that “a right” was taken away
 from the people when the Act of 1873 was passed,
 and the implication is that they have been
 vainly struggling to recover this right for twenty
@@ -1304,7 +1304,7 @@ years--a very odd situation indeed for a country
 where the people can pass any law that they really
 want. It is the fault of some writers that they use
 important words without explaining, perhaps without
-knowing, their meaning. What is this "right"
+knowing, their meaning. What is this “right”
 of which the people were deprived by the Act of
 1873? Rights may be legal, or moral, or religious.
 In which category does this right fall? If it was a
@@ -1341,7 +1341,7 @@ at one time or another. It is surprising that so few
 recognize it as a right or set up any claim to it.
 
 Finally we are told that this right had been taken
-from the people "unwittingly." We repeat that ours
+from the people “unwittingly.” We repeat that ours
 would be a very queer country if no law could be
 passed till everybody understood it. There has
 been a great deal of talk in the newspapers lately
@@ -1367,7 +1367,7 @@ quite herculean. Suppose that our correspondent
 and the writer of this article were brought to the bar
 of the House and asked whether they understood the
 pending measure, so that it might not be passed
-"unwittingly" as to themselves, and suppose they
+“unwittingly” as to themselves, and suppose they
 should apply in the affirmative, what guarantee
 would Congress have that they really did understand
 it? They might think that they understood it when
@@ -1382,7 +1382,7 @@ to have two dollars of different values. He
 afterwards said that he did not understand this particular
 part of the bill.
 
-What happened in Mr. Kelley's case would be still
+What happened in Mr. Kelley’s case would be still
 more likely to happen in the case of talesmen hastily
 summoned from the body of the people as assistant
 Congressmen. Our forefathers, anticipating all the
@@ -1391,7 +1391,7 @@ the people to understand all the bills before Congress
 at all stages, wisely provided that such antecedent
 knowledge should be dispensed with, but they took
 steps to give facilities for such knowledge. If it is a
-defect of our system that laws are passed "unwittingly,"
+defect of our system that laws are passed “unwittingly,”
 it is a defect which we share with all other
 governments, and it seems to us to be inherent in the
 representative system. At all events, we see no
@@ -1403,22 +1403,22 @@ single sentence, used three phrases, all of them important,
 and carrying with them the gist of the debate
 on a momentous question, without any clear
 idea of their meaning. He has used the word
-"people" as though it were an entity separate and
+“people” as though it were an entity separate and
 distinct from the only organ established for the expression
 of its will, but he has not told us where we
 can find this entity or how we can interrogate it.
 He affirms that the people have been deprived of a
-"right" without telling us whether it is a legal or a
+“right” without telling us whether it is a legal or a
 moral right, or how it came to exist, or what portion
 of the civilized world regard it as a right, or how we
 are to know that it is a right, or anything about it.
 He has affirmed that the people were deprived of this
-right "unwittingly," implying that no law ought to
+right “unwittingly,” implying that no law ought to
 be passed until all the people understand it. (It is
 not necessary, according to the hypothesis, that they
 should approve it, but only that they should understand
 it.) In using these phrases in this way he has
-"begged the question" completely, but we presume
+“begged the question” completely, but we presume
 that he was not aware that he was doing so. We have
 taken some pains to point out his unfounded assumptions
 because we know that he represents a good
