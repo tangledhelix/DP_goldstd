@@ -1,10 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no,date=no,address=no,email=no,url=no">
+    <title>
+      The Gold Standard | Project Gutenberg
+    </title>
+    <link rel="icon" href="images/cover.jpg" type="image/x-cover">
+    <style>
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-align: center; /* all headings centered */
+    clear: both;
+}
+
+p {
+    margin-top: .5em;
+    text-align: justify;
+    margin-bottom: .5em;
+}
+
+.p2       {margin-top: 2em;}
+.p4       {margin-top: 4em;}
+.p6       {margin-top: 6em;}
+
+hr {
+    width: 33%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 33.5%;
+    margin-right: 33.5%;
+    clear: both;
+}
+
+hr.tb   {width: 45%; margin-left: 27.5%; margin-right: 27.5%;}
+hr.chap {width: 65%; margin-left: 17.5%; margin-right: 17.5%;}
+@media print { hr.chap {display: none; visibility: hidden;} }
+hr.full {width: 95%; margin-left: 2.5%; margin-right: 2.5%;}
+
+hr.r5  {width: 5%; margin-top: 1em; margin-bottom: 1em; margin-left: 47.5%; margin-right: 47.5%;}
+hr.r65 {width: 65%; margin-top: 3em; margin-bottom: 3em; margin-left: 17.5%; margin-right: 17.5%;}
+
+div.chapter {page-break-before: always;}
+h2.nobreak  {page-break-before: avoid;}
+
+ul.index { list-style-type: none; }
+li.ifrst {
+    margin-top: 1em;
+    text-indent: -2em;
+    padding-left: 1em;
+}
+li.indx  {
+    margin-top: .5em;
+    text-indent: -2em;
+    padding-left: 1em;
+}
+li.isub1 {
+    text-indent: -2em;
+    padding-left: 2em;
+}
+li.isub2 {
+    text-indent: -2em;
+    padding-left: 3em;
+}
+li.isub3 {
+    text-indent: -2em;
+    padding-left: 4em;
+}
+li.isub4 {
+    text-indent: -2em;
+    padding-left: 5em;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.autotable    { border-collapse: collapse; }
+table.autotable td,
+table.autotable th { padding: 0.25em; }
+
+.tdl      {text-align: left;}
+.tdr      {text-align: right;}
+.tdc      {text-align: center;}
+
+.pagenum { /* uncomment the next line for invisible page numbers */
+    /*  visibility: hidden;  */
+    position: absolute;
+    left: 92%;
+    font-size: small;
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-indent: 0;
+} /* page numbers */
+
+.linenum {
+    position: absolute;
+    top: auto;
+    left: 4%;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+} /* poetry number */
+
+blockquote {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.sidenote {
+    width: 20%;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    padding-left: .5em;
+    padding-right: .5em;
+    margin-left: 1em;
+    float: right;
+    clear: right;
+    margin-top: 1em;
+    font-size: small;
+    color: black;
+    background: #eeeeee;
+    border: 1px dashed;
+}
+
+.bb       {border-bottom: 2px solid;}
+
+.bl       {border-left: 2px solid;}
+
+.bt       {border-top: 2px solid;}
+
+.br       {border-right: 2px solid;}
+
+.bbox     {border: 2px solid;}
+
+.center   {text-align: center; text-indent: 0;}
+
+.right    {text-align: right;}
+
+.smcap    {font-variant: small-caps;}
+
+.allsmcap {font-variant: small-caps; text-transform: lowercase;}
+
+.u        {text-decoration: underline;}
+
+.gesperrt
+{
+    font-style: normal;
+    letter-spacing: 0.2em;
+    margin-right: -0.2em;
+}
+.x-ebookmaker-2 .gesperrt {
+    font-style: italic;
+    letter-spacing: normal;
+    margin-right: 0em;
+}
+
+figcaption   {font-weight: bold;}
+figcaption p {margin-top: 0; margin-bottom: .2em; text-align: inherit;}
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+img.w100 {width: 100%;}
 
 
+.figcenter {
+    margin: auto;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+
+.figleft {
+    float: left;
+    clear: left;
+    margin-left: 0;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding: 0;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+/* comment out next line and uncomment the following one for floating figleft on ebookmaker output */
+.x-ebookmaker .figleft {float: none; text-align: center; margin-right: 0;}
+/* .x-ebookmaker .figleft {float: left;} */
+
+.figright {
+    float: right;
+    clear: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 0;
+    padding: 0;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+/* comment out next line and uncomment the following one for floating figright on ebookmaker output */
+.x-ebookmaker .figright {float: none; text-align: center; margin-left: 0;}
+/* .x-ebookmaker .figright {float: right;} */
+
+/* Footnotes */
+.footnotes        {border: 1px dashed;}
+
+.footnote         {margin-left: 10%; margin-right: 10%; font-size: 0.9em;}
+
+.footnote .label  {position: absolute; right: 84%; text-align: right;}
+
+.fnanchor {
+    vertical-align: super;
+    font-size: .8em;
+    text-decoration:
+    none;
+}
+
+/* Poetry */
+/* uncomment the next line for centered poetry */
+/* .poetry-container {display: flex; justify-content: center;} */
+.poetry-container {text-align: center;}
+.poetry           {text-align: left; margin-left: 5%; margin-right: 5%;}
+.poetry .stanza   {margin: 1em auto;}
+.poetry .verse    {text-indent: -3em; padding-left: 3em;}
+
+/* Transcriber's notes */
+.transnote {background-color: #E6E6FA;
+    color: black;
+    font-size:small;
+    padding:0.5em;
+    margin-bottom:5em;
+    font-family:sans-serif, serif;
+}
 
 
-/x
+/* indent paragraphs */
+p { text-indent: 1em; }
+p.noindent { text-indent: 0; }
+
+/* de-emphasize page numbers */
+.pagenum { color: #bbbbbb; }
+
+/* footnote block styling */
+.footnotes {
+    border: 1px dashed #aaaaaa;
+    margin-top: 1.5em;
+}
+
+/* TN styling */
+.transnote {
+    background-color: inherit;
+    border: 1px dashed #bbbbbb;
+    margin-top: 3em;
+    page-break-before: always;
+}
+
+/* don't visibly style abbr */
+abbr {
+    border: none;
+    text-decoration: none;
+    font-variant: normal;
+}
+/* abbrs that should be read letter-by-letter */
+abbr.spell { speak: spell-out; }
+
+/* "gray bar" blockquotes */
+blockquote {
+    border-left: .15em solid #c8c8c8;
+    padding-left: .7em;
+    margin-left: 4%;
+    margin-right: 8%;
+}
+
+/* don't wrap; better than invisible word joiner char? */
+.nowrap { white-space: nowrap; }
+
+/* remove italic styling, e.g. on a <cite> */
+.nonitalic { font-style: normal; }
+
+/* hanging indent */
+.hanging2 {
+  padding-left: 2em;
+  text-indent: -2em;
+}
+
+/* drop caps */
+p.drop-cap { text-indent: 0em; }
+p.drop-cap:first-letter {
+  float: left;
+  margin: 0 0.1em 0 0;
+  font-size: 250%;
+  line-height:0.85em;
+}
+.uppercase { text-transform: uppercase; }
+
+/* disable drop caps for EPUB2 */
+.x-ebookmaker-2  p.drop-cap:first-letter {
+  float: none;
+  margin: 0;
+  font-size: 100%;
+}
+
+.size-l { font-size: 125%; }
+    </style>
+</head>
+<body>
+
+
+<p><span class="pagenum" id="Page_1">[Pg 1]</span></p>
+
+<!-- Autogenerated TOC. Modify or delete as required. -->
+<p>
+<a href="#THE_GOLD_STANDARD">THE GOLD STANDARD.</a><br>
+<a href="#A_FEW_WORDS_MORE_ON_THE_COINAGE">A FEW WORDS MORE ON THE COINAGE ACT OF 1873. <span class="smcap">From the N. Y. Evening Post, July 3, 1893.</span></a>
+</p>
+<!-- End Autogenerated TOC. -->
+
+
+<h1>
 The Gold Standard.
+</h1>
 
+<pre>
 [Illustration]
 
 HOW IT CAME INTO THE WORLD AND WHY IT WILL STAY.
@@ -16,31 +348,38 @@ FINANCIERS AT CHICAGO, JUNE 20, 1893.</i>
 
 BY
 
-<sc>Horace White</sc>.
+<span class="smcap">Horace White</span>.
 
 [Illustration]
 
 The Evening Post Publishing Co.,
 
 NEW YORK CITY.
-x/
+</pre>
+
+<p><span class="pagenum" id="Page_2">[Pg 2]</span></p>
 
 
-
-
-/x
+<pre>
 <i>Copies of this pamphlet may be obtained at 5 cents a copy, postpaid.
-Address</i> <sc>The Evening Post Publishing Company</sc>,
+Address</i> <span class="smcap">The Evening Post Publishing Company</span>,
 <i>206–210 Broadway, New York City</i>.
-x/
+</pre>
 
 
+<hr class="chap x-ebookmaker-drop">
+<div class="chapter">
+
+<p><span class="pagenum" id="Page_3">[Pg 3]</span></p>
 
 
-THE GOLD STANDARD.
+  <h2 class="nobreak" id="THE_GOLD_STANDARD">
+    THE GOLD STANDARD.
+  </h2>
+</div>
 
 
-The most impressive fact in the world of finance is
+<p>The most impressive fact in the world of finance is
 the dominance of the gold standard. A year or two
 ago Roumania passed under its sway, to-day it is
 Austria, next year or soon it will be India, by and
@@ -52,27 +391,29 @@ assist it. Yet the movement has been as little impeded
 as that of an ocean steamer would be by the
 action of a debating society in its own cabin. Is all
 this due to human perversity, or has it a rational
-cause founded in the needs of mankind?
+cause founded in the needs of mankind?</p>
 
 
-THE EXPERIENCE OF ENGLAND.
+<h3 id="THE_EXPERIENCE_OF_ENGLAND">
+  THE EXPERIENCE OF ENGLAND.
+</h3>
 
-The first nation to adopt the single gold standard
+<p>The first nation to adopt the single gold standard
 by law was England. This was really done in 1798,
-although the date usually assigned to it is 1816.
+although the date usually assigned to it is 1816.</p>
 
-The pound sterling was originally a pound weight
+<p>The pound sterling was originally a pound weight
 of silver, divided into twenty parts called shillings,
 and each of these into twelve parts called pennies, or
 pennyweights. Gold made its first appearance in the
 coinage of England in the reign of Edward III. (A. D.
 1345). The ratio of gold to silver fixed by royal decree
-in this coinage was about 12½ to 1.
+in this coinage was about 12½ to 1.</p>
 
-From this period to the forty-third year of the
+<p>From this period to the forty-third year of the
 reign of Elizabeth there were nine debasements of the
 silver coinage accompanied by changes in the gold
-coinage, but as these were arbitrary acts of the reigning
+<span class="pagenum" id="Page_4">[Pg 4]</span>coinage, but as these were arbitrary acts of the reigning
 sovereigns they possess no scientific interest. In
 the forty-third of Elizabeth (1601) the last debasement
 was made. The pound weight of silver was then
@@ -84,17 +425,17 @@ henceforth unchanged, it becomes possible to trace
 the commercial variations of the two metals and to
 observe the ineffectual struggles of society and government
 to keep both of them in use as legal-tender
-money.
+money.</p>
 
-Queen Elizabeth died two years later. Before her
+<p>Queen Elizabeth died two years later. Before her
 successor, James I., had been on the throne three
 years, gold had risen in value as compared with silver,
 and the gold coins were exported to such an
 extent that it was necessary to diminish their weight
 about 11 per cent. The ratio now established was a
-little more than 12 to 1.
+little more than 12 to 1.</p>
 
-In the ninth year of the same reign the gold coin
+<p>In the ninth year of the same reign the gold coin
 began to be exported again, so that it was necessary
 to make a new change of ratio. This time the ratio
 was fixed at 13 to 1. But this was too great an advance
@@ -109,14 +450,14 @@ coin for the purpose of making plate, although a certain
 amount might be used for repairing old plate and
 keeping it up to its original standard. As the evil
 continued a third proclamation was issued in 1622
-and a fourth in 1624. None of these had any effect
+<span class="pagenum" id="Page_5">[Pg 5]</span>and a fourth in 1624. None of these had any effect
 except to make an historical record of the futility of
 attempts to enforce a legal ratio which is different
 even in a slight degree from the market ratio. It was
 customary during this period to pay a premium of
-two pence for silver change to the amount of 20 shillings.
+two pence for silver change to the amount of 20 shillings.</p>
 
-Soon after Charles I. began his reign he issued a
+<p>Soon after Charles I. began his reign he issued a
 proclamation on the same subject, reciting the previous
 ones of his father and acknowledging that they
 had been disregarded. In 1636 seven persons accused
@@ -133,20 +474,20 @@ so that about the beginning of the Commonwealth
 the ratio that King James had established was identical,
 or nearly so, with the market ratio. The exportation
 of the precious metals ceased until the reign of
-Charles II.
+Charles II.</p>
 
-In 1663 gold had risen in value so that it was necessary
+<p>In 1663 gold had risen in value so that it was necessary
 to change the ratio to 14½ to 1. This was an
-advance of about 8 per cent. since James I.
+advance of about 8 per cent. since James I.</p>
 
-Each time that a change was made in the gold
+<p>Each time that a change was made in the gold
 coinage a new name was given to the coin so produced,
 in order to distinguish it from its predecessors.
 The coin that Charles II. now introduced was
 called the guinea. It was ordered that this coin
 should pass for twenty shillings, but it immediately
 became current in trade at a higher rate, passing for
-twenty-one to twenty-two shillings. No attempt was
+<span class="pagenum" id="Page_6">[Pg 6]</span>twenty-one to twenty-two shillings. No attempt was
 made to enforce the mint valuation or to prevent
 melting or exporting. Consequently silver became
 in practice the only legal-tender money. Nobody
@@ -166,9 +507,9 @@ John Locke were concerned in it. In the year 1717
 the guinea was made current by royal proclamation
 at 21 shillings in silver, at which figure the ratio was
 about 15⅐ to 1. This was in the third year of the
-reign of George I.
+reign of George I.</p>
 
-It was about this time, says Lord Liverpool, that a
+<p>It was about this time, says Lord Liverpool, that a
 marked preference was shown by the people for gold
 money rather than silver, on account of its convenience
 in making large payments. This he ascribes to the
@@ -182,7 +523,7 @@ captured in war. The only silver coin retained in
 circulation was that which had been much worn. As
 these light-weight pieces varied among themselves,
 the lightest ones were selected to make payments, a
-condition which became worse and worse until Parliament
+<span class="pagenum" id="Page_7">[Pg 7]</span>condition which became worse and worse until Parliament
 in 1774 passed an act limiting the legal tender
 of silver coins to £25 in tale. For any sum above £25
 they could be paid by weight only. This act was to
@@ -197,10 +538,10 @@ following year (1799) a brief act was passed making
 the act of 1774 perpetual. In 1816 the character of
 the British monetary system was formulated by an act
 of Parliament on its present basis, the essential part
-of this act being in the following words:
+of this act being in the following words:</p>
 
-/#
-“XI. And whereas at various times heretofore the
+<blockquote>
+<p>“XI. And whereas at various times heretofore the
 coins of this realm of gold and silver have been equally
 a legal tender for payments to any amount, and <i>great
 inconvenience has arisen from both those precious metals
@@ -211,19 +552,21 @@ Mint should henceforth be the sole standard measure
 of value and legal tender for payment, without any
 limitation of amount, and that the silver coin should
 be a legal tender to a limited amount only, for the
-facility of exchange and commerce;
+facility of exchange and commerce;</p>
 
-“Be it therefore enacted, That from and after the
+<p>“Be it therefore enacted, That from and after the
 passing of this act, the gold coin of this realm shall be
 and shall be considered and is hereby declared to be
 the only legal tender for payments, except as hereinafter
 provided, * * * and no tender of payment
 of money made in the silver coin of this realm of any
 sum exceeding the sum of forty shillings at any one
-time shall be reputed a tender in law, etc.”
-#/
+time shall be reputed a tender in law, etc.”</p>
+</blockquote>
 
-This is a brief résumé of the experience and legislation
+<p><span class="pagenum" id="Page_8">[Pg 8]</span></p>
+
+<p>This is a brief résumé of the experience and legislation
 of Great Britain. It is important as showing
 that the single gold standard was adopted on account
 of the “great inconvenience” of the double standard,
@@ -233,9 +576,9 @@ learned men before 1798. John Locke had shown
 that a double standard composed of two things of
 varying value was an impossibility. He favored the
 single standard of silver, as did the learned men who
-considered the same question in France a century later.
+considered the same question in France a century later.</p>
 
-It appears that the gold standard was adopted
+<p>It appears that the gold standard was adopted
 without any particular design on the part of those
 who brought it about. They found, as a matter of
 fact, that the monetary evils existing in 1774 could be
@@ -250,17 +593,19 @@ be successful, they passed the law which I have
 quoted. That law, in substance, remains in force to
 the present time, and we may be sure that it would
 not have lasted so long if it were not a good thing
-<i>per se</i>.
+<i>per se</i>.</p>
 
 
-THE GOLD STANDARD IN THE UNITED STATES.
+<h3 id="THE_GOLD_STANDARD_IN_THE_UNITED_STATES">
+  THE GOLD STANDARD IN THE UNITED STATES.
+</h3>
 
-We will next consider the experience of the United
+<p>We will next consider the experience of the United
 States. At the beginning of our career as a nation
 we adopted the double standard of gold and silver.
 This was in 1792. Our statesmen followed in this
 matter the example of the older countries of Europe.
-Alexander Hamilton was the Secretary of the Treasury
+<span class="pagenum" id="Page_9">[Pg 9]</span>Alexander Hamilton was the Secretary of the Treasury
 and the ruling spirit. At his instance the ratio
 of 15 was adopted, and there is no room to doubt
 that this was very close to the true market ratio at
@@ -279,12 +624,14 @@ metal something more than fifteen ounces of silver.
 It was worth while for bullion brokers to collect gold
 coins and export them. The testimony is emphatic
 and is not disputed, that after 1817 and until 1834 our
-metallic money consisted of silver exclusively.
+metallic money consisted of silver exclusively.</p>
 
 
-THE LAW OF 1834.
+<h3 id="THE_LAW_OF_1834">
+  THE LAW OF 1834.
+</h3>
 
-In 1834 people had become tired of lugging silver
+<p>In 1834 people had become tired of lugging silver
 around. They had by this time found out what was
 the matter. They determined to have some gold in
 their pockets, but it cannot be affirmed that Congress
@@ -297,7 +644,7 @@ altogether, as it did. This bill was called the “Gold
 Bill” in the discussions of the time. As reported by
 the special committee, it provided for a ratio of 15.60
 to 1, but when it came up for discussion, Mr. Campbell
-P. White, the Chairman of the Committee, who
+<span class="pagenum" id="Page_10">[Pg 10]</span>P. White, the Chairman of the Committee, who
 was himself in favor of the single gold standard,
 moved to amend by making the ratio 16 to 1, and his
 amendment was adopted without a division. On the
@@ -309,17 +656,17 @@ it would enable the country to keep both silver and
 gold in concurrent circulation. This amendment
 was voted down—yeas 52, nays 127. The bill was
 then passed in the House by 145 to 36, and in the Senate
-by 35 to 7.
+by 35 to 7.</p>
 
-There was a variety of motives leading to the passage
+<p>There was a variety of motives leading to the passage
 of the Gold Bill, but among these the desire of
 having gold in place of silver was the most influential.
 Thomas H. Benton, one of the strongest advocates of
 the measure, declared that the object of his endeavors
-was:
+was:</p>
 
-/#
-“To enable the friends of gold to go to work at the
+<blockquote>
+<p>“To enable the friends of gold to go to work at the
 right place to effect the recovery of that precious metal
 which their fathers once possessed, which the subjects
 of European kings now possess, which the citizens of
@@ -330,14 +677,14 @@ for more than twenty years, and will be deprived
 forever unless they discover the cause of the
 evil and apply the remedy to its root.—[Speech of
 Senator Benton of Missouri, quoted by Louis R.
-Ehrich in his ‘Question of Silver.’]”
-#/
+Ehrich in his ‘Question of Silver.’]”</p>
+</blockquote>
 
-The effect that was predicted was abundantly
+<p>The effect that was predicted was abundantly
 realized. Silver did go out of circulation. The
 minor coins, being of proportional weight and fineness
 with the dollar, were melted and exported, and their
-place in the circulation was taken by light-weight
+<span class="pagenum" id="Page_11">[Pg 11]</span>place in the circulation was taken by light-weight
 foreign coins, principally Spanish and Mexican six-pences,
 shillings, quarters, and halves. Those coins,
 when of full weight, were almost identical with our
@@ -368,31 +715,33 @@ nothing remarkable about this, since all these foreign
 coins were circulating at their bullion value. The
 two halves of a Spanish quarter were therefore worth
 as much as they would have been if joined in a single
-piece.
+piece.</p>
 
-It became apparent to everybody that if full-weight
+<p>It became apparent to everybody that if full-weight
 silver coins would not circulate on the ratio of 16 to
 1, while those of light weight would circulate, then it
-would be safe to <i>make</i> minor coins (halves, quarters,
+<span class="pagenum" id="Page_12">[Pg 12]</span>would be safe to <i>make</i> minor coins (halves, quarters,
 etc.), designedly of light weight on Government account,
 of limited legal tender. There would be no
 profit in exporting such coins, because they would
 not sell as bullion for as much as it would cost to collect
-them. In 1853 an act of this kind was passed.
+them. In 1853 an act of this kind was passed.</p>
 
-From 1837 onward the country had gold money and
+<p>From 1837 onward the country had gold money and
 the gold basis. Silver dollars were hardly ever seen.
 There was not an hour in the whole period of forty
 years to 1873 when the silver dollar was not worth
 more than the gold dollar. With the exception of a
 very few years it was worth fully three cents more.
 Did any of you ever see a silver dollar in circulation
-prior to 1878? I never did.
+prior to 1878? I never did.</p>
 
 
-THE LAW OF 1873.
+<h3 id="THE_LAW_OF_1873">
+  THE LAW OF 1873.
+</h3>
 
-Under these circumstances, the gold standard existing
+<p>Under these circumstances, the gold standard existing
 <i>de facto</i>, and there being no silver except light-weight
 subsidiary coins, our mint authorities, the only
 people who took any interest in the subject, began
@@ -411,16 +760,16 @@ to the fact. But the nation had more exciting
 topics to discuss in 1861 than those relating to coinage.
 In 1866, after the war, Mr. John J. Knox, who then
 had charge of the Mint and coinage matters in the
-Treasury Department, recommended a revision of all
+<span class="pagenum" id="Page_13">[Pg 13]</span>Treasury Department, recommended a revision of all
 the laws relating to the Mint. Secretary Boutwell approved
 of the suggestion. Mr. Knox and Dr. Linderman
 were appointed in 1869 a committee to make
 such revision. They presented their report with a
 draft of a bill in 1870. The report recommended the
 discontinuance of the silver dollar, this coin being
-obsolete.
+obsolete.</p>
 
-The bill and report were transmitted to the Finance
+<p>The bill and report were transmitted to the Finance
 Committee of the Senate on the 25th of April, 1870.
 The bill passed the Senate on the 10th of January,
 1871. It made the gold dollar the unit of value and
@@ -447,16 +796,16 @@ House. Any candid person must see that the reason
 why the discontinuance of the silver dollar attracted
 so little notice was that this coin had been discontinued
 <i>de facto</i> in 1834, when the ratio of 16 to 1 was
-adopted. I have given reasons for thinking that this
+<span class="pagenum" id="Page_14">[Pg 14]</span>adopted. I have given reasons for thinking that this
 ratio was adopted designedly to expel the silver dollar
 from circulation. At all events, it did so, to the
 satisfaction of the people. It is a great pity that our
 ancestors in 1834 did not put their intentions into the
 form of law at that time. If they had done so they
 would have spared us a Pandora’s box, to be opened
-forty years later.
+forty years later.</p>
 
-Bimetallism was abolished in the United States by
+<p>Bimetallism was abolished in the United States by
 the Act of 1873. It has not been re-established by
 any subsequent act. The purchase and coinage of a
 limited amount of silver by the Government is not
@@ -471,21 +820,23 @@ this country by natural causes operating upon men’s
 minds in the same way as it was in England, the
 action of Congress in 1873 merely giving the form of
 law to what had been done practically at an earlier
-period?
+period?</p>
 
 
-THE EXPERIENCE OF GERMANY.
+<h3 id="THE_EXPERIENCE_OF_GERMANY">
+  THE EXPERIENCE OF GERMANY.
+</h3>
 
-Prior to 1871 Germany had the single silver standard,
+<p>Prior to 1871 Germany had the single silver standard,
 but as she could not transact business with silver
 alone, she used for her international and wholesale
 trade a heterogeneous assortment of gold coins, partly
 domestic and partly foreign, including napoleons,
 pistoles, guineas, eagles, Russian imperials, Friedrichs
-d’or, ducats, crowns, &c., passing as commercial
+d’or, ducats, crowns, &amp;c., passing as commercial
 money. The question of a reform of the currency
 had been under discussion by the economists and publicists
-of Germany for nearly ten years, but until 1868
+<span class="pagenum" id="Page_15">[Pg 15]</span>of Germany for nearly ten years, but until 1868
 the question under debate was a question of <i>uniformity</i>
 of money rather than of the metallic standard. Dr.
 Soëtbeer had indeed published two articles in 1863 and
@@ -510,9 +861,9 @@ and all her allies of the Latin Union were inclined to
 adopt the single gold standard, and also that Germany,
 Austria, Russia and the Scandinavian countries,
 all of which at the time had the single silver standard,
-were of the same mind.
+were of the same mind.</p>
 
-After this event a great many publications appeared
+<p>After this event a great many publications appeared
 in Germany showing an unmistakable tendency in the
 public mind to the gold standard. The most important
 of these is the report which Soëtbeer made at
@@ -521,14 +872,16 @@ year 1868. This Congress met in Hamburg and pronounced
 in favor of the unification of German money,
 and of the gold standard. Its action was ratified
 soon afterward by the united commercial bodies of
-the North German Confederation, and would have
+<span class="pagenum" id="Page_16">[Pg 16]</span>the North German Confederation, and would have
 been carried into effect at once but for the war with
-France. This event postponed the reform one year.
+France. This event postponed the reform one year.</p>
 
 
-GERMAN MONETARY LAW OF 1871.
+<h3 id="GERMAN_MONETARY_LAW_OF_1871">
+  GERMAN MONETARY LAW OF 1871.
+</h3>
 
-On the 5th of November, 1871, the Finance Minister
+<p>On the 5th of November, 1871, the Finance Minister
 of the new German Empire, Herr Delbrück, presented
 to the Imperial Diet a brief report of the
 “motives” which had led the Government to propose
@@ -558,7 +911,7 @@ demand for paper created by the exclusive
 circulation of silver made it almost
 impossible to adopt any radical and rational
 regulation of the banking system through laws common
-to all Germany.” For these reasons—namely,
+<span class="pagenum" id="Page_17">[Pg 17]</span>to all Germany.” For these reasons—namely,
 that silver was bulky and inconvenient, and that it
 brought about a forced circulation of paper and prevented
 any wise regulation of bank issues—the single
@@ -567,9 +920,9 @@ coinage. The measure was supported by very
 strong speeches by Minister Delbrück and by Dr.
 Bamberger, and it passed on the 23d of November.
 This measure was provisional only, a second and more
-detailed one being enacted two years later.
+detailed one being enacted two years later.</p>
 
-It is said by some that Germany, by demonetizing
+<p>It is said by some that Germany, by demonetizing
 silver in 1871 and by selling it in 1873 and later, drove
 France and the Latin Union into a suspension of silver
 coinage, and caused the great decline in the price
@@ -589,20 +942,20 @@ this declaration at an early stage of the recent
 Brussels Conference. So I feel warranted in saying
 that the question whether Germany has been guilty
 above others in oppressing or depressing silver is of
-no practical consequence.
+no practical consequence.</p>
 
-But such a charge cannot be sustained. Germany
+<p>But such a charge cannot be sustained. Germany
 had completed her new monetary system and stopped
 selling silver in 1879, and the Latin Union countries
 had closed their mints to silver three years earlier,
-whereas silver continued to decline all the same.
+<span class="pagenum" id="Page_18">[Pg 18]</span>whereas silver continued to decline all the same.
 The London price for 1879 (average) was 51¼d. per
 ounce. It is now 38d. The decline has been greater
 since Germany stopped selling than it was before.
 From 1871 to 1879 the aggregate decline was 9d.;
-from 1879 to 1893 it has been 13d.
+from 1879 to 1893 it has been 13d.</p>
 
-The simple truth is that Germany was driven to the
+<p>The simple truth is that Germany was driven to the
 gold standard, just as Great Britain and the United
 States had been previously, by the <i>inconveniencies</i> of
 silver money. These inconveniencies manifested
@@ -612,12 +965,14 @@ silver, an evil which increased with the growth of
 commerce. Some persons habitually speak of silver
 as a twin sister to whom some grievous injustice has
 been done. All such must admit that she is a very
-corpulent one.
+corpulent one.</p>
 
 
-FRANCE BEFORE THE REVOLUTION.
+<h3 id="FRANCE_BEFORE_THE_REVOLUTION">
+  FRANCE BEFORE THE REVOLUTION.
+</h3>
 
-We will now look at the course of events in France.
+<p>We will now look at the course of events in France.
 Here the livre was originally a pound weight of silver.
 It was debased by royal authority from time to time,
 as in England, but much more rapidly. M. Béranger,
@@ -633,14 +988,14 @@ except that the divergencies between the legal and
 market ratios, whenever they were discovered, were
 seized upon by the Government as an excuse for further
 debasement. They “fell back alternately from
-gold to silver and from silver to gold,” says Béranger,
+<span class="pagenum" id="Page_19">[Pg 19]</span>gold to silver and from silver to gold,” says Béranger,
 making a profit to the royal treasury each time. M.
 Calonne, Comptroller-General under Louis XVI., has
 given us a list of the principal recoinages prior to his
 time, of which there were four in the reign of Louis
-XIV. and five in that of Louis XV.
+XIV. and five in that of Louis XV.</p>
 
-It would be a waste of time to recount them. The
+<p>It would be a waste of time to recount them. The
 ratio existing when Louis XVI. came to the throne
 was 14⅝ to 1. It had been adopted in 1726. The
 legal ratio in England at that time, as we have seen,
@@ -660,29 +1015,31 @@ ratio then, it would become so before long. In this
 he was right, for when the law of 1803 was passed,
 there was no observable tendency to export either
 metal, and the Hamburg market ratio, as tabulated by
-Soëtbeer, was very close to 15½.
+Soëtbeer, was very close to 15½.</p>
 
 
-FRENCH MONETARY LAW OF 1803.
+<h3 id="FRENCH_MONETARY_LAW_OF_1803">
+  FRENCH MONETARY LAW OF 1803.
+</h3>
 
-I have in another place made a study of the documents
+<p>I have in another place made a study of the documents
 and debates which preceded and led up to the
 French Monetary Law of 1803 (see <i>Political Science
 Quarterly</i>, June, 1891). The substance is that these
 learned and patriotic men, without exception, considered
 a double standard impossible and any attempt
-to establish it disastrous. They accordingly determined
+<span class="pagenum" id="Page_20">[Pg 20]</span>to establish it disastrous. They accordingly determined
 to establish, and thought that they had established,
 the single silver standard by a law, the first
-paragraph of which reads as follows:
+paragraph of which reads as follows:</p>
 
-/#
-“General provision.—Five grams of silver, nine-tenths
+<blockquote>
+<p>“General provision.—Five grams of silver, nine-tenths
 fine, constitute the monetary unit which retains
-the name of franc.”
-#/
+the name of franc.”</p>
+</blockquote>
 
-But they were confronted by the fact that gold was
+<p>But they were confronted by the fact that gold was
 an indispensable part of the monetary system. How
 to retain it in the circulation as a subordinate metal
 while making silver the sole standard was the great
@@ -692,17 +1049,17 @@ question, and no decision was ever reached except to
 allow gold to be coined at the French mint at the
 ratio of 15½ to 1, with the understanding that if the
 market ratio should change, the gold, but not the silver,
-should be recoined.
+should be recoined.</p>
 
-Such was the law of 1803. Although it was the intention
+<p>Such was the law of 1803. Although it was the intention
 of the lawmakers to establish the single silver
 standard, the clause which they introduced allowing
 the coinage of gold was the same thing in effect as
 re-enacting Calonne’s law of 1785. It was in practice,
 though not in intention, a bimetallic law at the ratio
-of 15½ to 1.
+of 15½ to 1.</p>
 
-Almost immediately after its enactment France
+<p>Almost immediately after its enactment France
 plunged into wars which lasted till 1815. Of course,
 the nation had very little time to think about her
 coinage laws. Gradually the price of gold rose above
@@ -711,18 +1068,20 @@ an extent that Chevalier tells us that “twenty-five
 years after that date [1803] the circulation consisted
 of silver only.” Abundant proofs can be adduced
 showing that bimetallism did not exist in practice in
-France between 1820 and 1847. Mr. Griffen has published
+<span class="pagenum" id="Page_21">[Pg 21]</span>France between 1820 and 1847. Mr. Griffen has published
 a table showing the premium on gold in Paris
 during every month of that period. This premium
 was at times as high as two per cent. The contention
 of the bimetallists that the French law of 1803 kept
 the ratio steady at 15½ till 1873 is not supported by
-facts.
+facts.</p>
 
 
-THE GREAT INRUSH OF GOLD.
+<h3 id="THE_GREAT_INRUSH_OF_GOLD">
+  THE GREAT INRUSH OF GOLD.
+</h3>
 
-From 1850 to 1860 there was an enormous increase
+<p>From 1850 to 1860 there was an enormous increase
 in the production of gold in Russia, California and
 Australia, and scarcely any increase in that of silver.
 The market ratio declined to 15.46 in the year 1851,
@@ -735,9 +1094,9 @@ about half that amount of silver. Her circulation
 became saturated with the yellow metal to the
 great delight of her people, who had become tired of
 carrying sacks of five-franc pieces to and fro in cabs
-and handcarts.
+and handcarts.</p>
 
-The exportation of silver from France was so extensive
+<p>The exportation of silver from France was so extensive
 at this time that the country was almost
 denuded of small money. It became necessary to
 coin gold pieces as small as five francs. In 1857 the
@@ -749,7 +1108,7 @@ of the United States and making silver coins
 of light weight and of limited legal tender, it recommended
 that an export duty be put on silver, that
 bullion brokers be prosecuted, and that assorting and
-trading in coins be prohibited by law. In other
+<span class="pagenum" id="Page_22">[Pg 22]</span>trading in coins be prohibited by law. In other
 words, this sapient commission went back for inspiration
 to the times of Louis XIV. and of James I. and
 Charles I. of England. Some attempts were actually
@@ -765,12 +1124,14 @@ another economist of renown, but with a keener
 vision, expressed the opinion that gold had made
 itself the standard in spite of the law, and he suggested
 that the wisest thing for France to do was to
-make the law conform to the fact.
+make the law conform to the fact.</p>
 
 
-THE LATIN MONETARY UNION.
+<h3 id="THE_LATIN_MONETARY_UNION">
+  THE LATIN MONETARY UNION.
+</h3>
 
-Nothing was done at that time. Events drifted till
+<p>Nothing was done at that time. Events drifted till
 1864, when the lack of small change had become so
 serious that the Government brought a bill before the
 Corps Legislatif authorizing the lowering of the fineness
@@ -786,7 +1147,7 @@ of the very things to be lowered. The Legislature
 recoiled, but it sustained the lowering of the pieces
 smaller than one franc. The difficulty could not be
 removed by such homœopathic treatment, and as the
-same difficulty existed in the neighboring countries of
+<span class="pagenum" id="Page_23">[Pg 23]</span>same difficulty existed in the neighboring countries of
 Belgium and Switzerland, a convention was called for
 the purpose of adopting some common steps for relief.
 Italy also was induced to join, and soon afterwards
@@ -796,12 +1157,14 @@ direct act. By treaty dated December 23, 1865, these
 four countries adopted their present token coinage of
 silver and limited its legal-tender faculty to fifty
 francs. This was the origin of the so-called Latin
-Monetary Union.
+Monetary Union.</p>
 
 
-HOW FRANCE CAME TO THE GOLD STANDARD.
+<h3 id="HOW_FRANCE_CAME_TO_THE_GOLD_STANDARD">
+  HOW FRANCE CAME TO THE GOLD STANDARD.
+</h3>
 
-In 1867 the price of silver had again declined, so
+<p>In 1867 the price of silver had again declined, so
 that the French ratio of 15½ was substantially identical
 with the market ratio. That was the year of the
 International Monetary Conference, of which mention
@@ -822,12 +1185,12 @@ market ratio of gold had risen nearly to 15.75. There
 was a profit of 1½ per cent. in sending silver bullion
 to the mint and using the resulting coin to buy gold
 for export. The delegates of the Latin Monetary
-Union were hastily assembled and they determined
+<span class="pagenum" id="Page_24">[Pg 24]</span>Union were hastily assembled and they determined
 to limit the coinage of silver to 120,000,000 francs per
 year for all the countries concerned. This was virtually
-the adoption of the gold standard.
+the adoption of the gold standard.</p>
 
-At the beginning of 1876 the market ratio had
+<p>At the beginning of 1876 the market ratio had
 reached nearly seventeen to one. The crisis was becoming
 acute. Switzerland had ceased to coin her
 allotted share of silver. Belgium had passed a law
@@ -846,23 +1209,25 @@ by rejecting the Senate report and adopting, on the
 Minister of Finance. But it really made no difference
 which of the two was adopted. The door of
 the French mint was closed to silver on the following
-day, and has not been reopened.
+day, and has not been reopened.</p>
 
-I think it has been shown that the gold standard
+<p>I think it has been shown that the gold standard
 made its way in France not only without design on
 the part of individuals, but in spite of the strenuous
 resistance of almost all the men who busied themselves
 with the subject at all. I have given a good
 deal of space to the experience of France, because of
 the great importance which has always been assigned
-to that country by the advocates of bimetallism.
+to that country by the advocates of bimetallism.</p>
 
 
-EXPERIENCE OF BELGIUM AND HOLLAND.
+<h3 id="EXPERIENCE_OF_BELGIUM_AND_HOLLAND">
+  EXPERIENCE OF BELGIUM AND HOLLAND.
+</h3>
 
-It is unnecessary to go into details concerning the
+<p>It is unnecessary to go into details concerning the
 other members of the Latin Union, but one fact as
-regards Belgium deserves notice. This country was
+<span class="pagenum" id="Page_25">[Pg 25]</span>regards Belgium deserves notice. This country was
 an integral part of France when the law of 1803 was
 passed. Her monetary system was accordingly
 identical with that of France until 1832, when she
@@ -880,17 +1245,17 @@ has already been made. The popular demand grew
 apace, and Frère Orban, rather than yield to it, resigned
 his office. Then the bill was passed, and Belgium
 obtained what her people wanted, that is, the
-gold standard.
+gold standard.</p>
 
-The experience of Holland is no less instructive.
+<p>The experience of Holland is no less instructive.
 Prior to 1847 this country had the double standard at
 the ratio of 15.60 to 1. She had become convinced,
 however, that a double standard was merely an alternate
 standard, first one thing and then the other. So
 she decided to have a single standard, and adopted
-that of silver in 1847.
+that of silver in 1847.</p>
 
-When Germany adopted the gold standard a commission
+<p>When Germany adopted the gold standard a commission
 was appointed by the King of the Netherlands
 to examine the monetary question. It recommended
 that the coinage of silver be suspended for six
@@ -899,7 +1264,7 @@ months, and a bill to that effect was passed in May,
 months each. A second report of the Commission
 was made, recommending a bill for the adoption of
 the single gold standard, but this bill was rejected by
-the second Chamber in March, 1874. When the law
+<span class="pagenum" id="Page_26">[Pg 26]</span>the second Chamber in March, 1874. When the law
 suspending the coinage of silver expired in May, 1874,
 immense quantities of silver began to flow to the mint.
 Silver florins passed in trade at the old ratio of 15.60
@@ -913,12 +1278,14 @@ the Minister of Finance proposed that the silver coinage
 be discontinued indefinitely and that gold coinage
 be allowed. This bill was passed in June, 1875.
 Here again the gold standard made its way over the
-heads of the wise men of the time.
+heads of the wise men of the time.</p>
 
 
-THE GOLD STANDARD IN AUSTRIA.
+<h3 id="THE_GOLD_STANDARD_IN_AUSTRIA">
+  THE GOLD STANDARD IN AUSTRIA.
+</h3>
 
-The adoption of the gold standard by Austria is
+<p>The adoption of the gold standard by Austria is
 now in progress, and there is every assurance that it
 will be carried into effect. That country had had the
 single silver standard since 1857, but was under a
@@ -936,7 +1303,7 @@ as a matter of fact that metal was discarded as a
 standard by the refusal to coin for private persons.
 Austria had a gold coinage, indeed, but the gold was
 commercial money only. It had no legal-tender
-faculty, but passed at its quoted value from day to
+<span class="pagenum" id="Page_27">[Pg 27]</span>faculty, but passed at its quoted value from day to
 day. Since 1879 the problem of finance in Austria
 has been two-fold, namely, to resume specie payments
 (which must, under the circumstances, be gold
@@ -944,9 +1311,9 @@ payments), and to fix a ratio at which all paper
 money and paper obligations should be redeemable.
 The ratio decided upon was that of 119 paper to 100
 gold, that being the average ratio prevailing in the
-market during the thirteen years from 1879 to 1892.
+market during the thirteen years from 1879 to 1892.</p>
 
-As the question of standard was really settled by
+<p>As the question of standard was really settled by
 Austria in 1879, when she closed her mints to silver,
 we are concerned to know how she came to take that
 step. The report of the special commission of the
@@ -962,9 +1329,9 @@ silver was then the standard in all domestic exchanges.
 * * * <i>In every age there is some metal
 dominant in the industry of the world which forces its
 way with elemental strength in the face of any public
-regulation, and in our day gold is that metal.</i>”
+regulation, and in our day gold is that metal.</i>”</p>
 
-This is as good a statement as can be made of the
+<p>This is as good a statement as can be made of the
 reasons why not only Austria but all the other nations
 whose action we have examined, including the United
 States, have adopted the single gold standard.
@@ -973,16 +1340,18 @@ yellow metal we have heard a great deal about the
 “scramble for gold.” Why is there a scramble for
 gold? Merely because gold is universally acceptable.
 All civilized people are willing to exchange their
-property for it to any extent, and this is the only
+<span class="pagenum" id="Page_28">[Pg 28]</span>property for it to any extent, and this is the only
 thing they are willing to accept in that way without
 limit or reserve. That is a good and sufficient reason
 why there is a scramble for gold and why there is no
-similar scramble for silver.
+similar scramble for silver.</p>
 
 
-A NATURAL EVOLUTION.
+<h3 id="A_NATURAL_EVOLUTION">
+  A NATURAL EVOLUTION.
+</h3>
 
-If we find a movement of civilized mankind going
+<p>If we find a movement of civilized mankind going
 on steadily for a hundred years, working out in different
 countries uniform results which commend
 themselves to successive generations, the presumptions
@@ -1010,9 +1379,11 @@ the day after international bimetallism if the
 commercial classes should continue to prefer one
 ounce of gold to sixteen ounces of silver?” Any responsible
 minister of finance must recoil before that
-query.
+query.</p>
 
-I think that the “scramble for gold” would be
+<p><span class="pagenum" id="Page_29">[Pg 29]</span></p>
+
+<p>I think that the “scramble for gold” would be
 worse the day after the bimetallic treaty than it was the
 day before, because everybody would suspect everybody
 else of gratifying his secret desire for gold at
@@ -1031,12 +1402,14 @@ it should be adopted, the bottom dropped out of the
 Conference altogether. Although Mr. Bland has
 given his attention to this matter as a humorist, in a
 magazine article, I think that he has come short of
-exhausting the subject.
+exhausting the subject.</p>
 
 
-NO STEPS BACKWARD.
+<h3 id="NO_STEPS_BACKWARD">
+  NO STEPS BACKWARD.
+</h3>
 
-If the successive steps that we have described,
+<p>If the successive steps that we have described,
 whereby the nations have arrived one by one at the
 single gold standard, had been the result of a hundred
 years’ conspiracy against the “debtor class,” instead
@@ -1049,12 +1422,12 @@ would merely double the wrong, inflicting it upon a
 new lot. Those who, according to the hypothesis,
 suffered in the past are mostly dead. If there be any
 such victims living in France or Germany, in Holland
-or Belgium, or Scandinavia, they are very slow in
+<span class="pagenum" id="Page_30">[Pg 30]</span>or Belgium, or Scandinavia, they are very slow in
 disclosing themselves to the various international conferences
 held for their benefit. They are very backward
-in coming forward.
+in coming forward.</p>
 
-What is meant by “debtor class” in this discussion?
+<p>What is meant by “debtor class” in this discussion?
 All men who are not bankrupt are both creditors and
 debtors. The fact that they are not bankrupt implies
 that they have more due to them in one way and
@@ -1065,9 +1438,9 @@ legislating specially for bankrupts. Certainly it
 would not be wise to change our standard of value
 for their accommodation. Such a change would produce
 a great many new bankrupts and would not save
-any old ones.
+any old ones.</p>
 
-What our country needs is more capital. This is
+<p>What our country needs is more capital. This is
 especially true of the West and South. There is a
 great deal of foreign capital that would like to come
 here, but is deterred by apprehensions of a change in
@@ -1086,10 +1459,10 @@ afraid lest the continued operation of the Silver Law
 should bring about a change of the standard, so that
 they would get back less than they have put out.
 While this state of mind continues, it is immaterial, so
-far as borrowers are concerned, whether the amount
-of cash in the country is large or small.
+<span class="pagenum" id="Page_31">[Pg 31]</span>far as borrowers are concerned, whether the amount
+of cash in the country is large or small.</p>
 
-We are told that there is not gold enough in the
+<p>We are told that there is not gold enough in the
 world to do the business of the world. I have been
 hearing this for seventeen years. How do you know
 that there is not enough? If there was not enough
@@ -1109,12 +1482,14 @@ diminishing. The time is surely coming when its
 currency function in civilized countries will be limited
 to international payments and to the wants of travelers.
 That time has already been reached in the
-greater part of the United States and Canada.
+greater part of the United States and Canada.</p>
 
 
-ALLEGED FALL OF PRICES.
+<h3 id="ALLEGED_FALL_OF_PRICES">
+  ALLEGED FALL OF PRICES.
+</h3>
 
-We are told that the single gold standard has caused
+<p>We are told that the single gold standard has caused
 a disastrous fall in the prices of commodities; also
 that it has put an unjust burden upon those who have
 borrowed money on mortgage. I have seen no proof
@@ -1124,7 +1499,7 @@ commodities, nor can I admit that such a decline
 would be a bad thing. None of us, when we go to
 market, complain that prices of food, fuel, clothing,
 etc., are too low. Mr. David A. Wells has written a
-book entitled “Recent Economic Changes,” which
+<span class="pagenum" id="Page_32">[Pg 32]</span>book entitled “Recent Economic Changes,” which
 accounts for the fall in price of all staple articles of
 commerce which really have fallen during the past
 twenty years, accounts for it by the increased facilities
@@ -1132,9 +1507,9 @@ for producing and transporting the same. He has
 not grouped them all together, as our bimetallist
 friends commonly do, but has taken each one separately.
 I commend his example in this particular to
-their imitation.
+their imitation.</p>
 
-As to mortgage debts, I have learned by inquiry of
+<p>As to mortgage debts, I have learned by inquiry of
 the leading mortgage companies in New York that
 farm mortgages are generally made for the term of
 five years, and that about 25 per cent. of them are
@@ -1160,26 +1535,28 @@ security. I am not aware that borrowers on call are
 complaining of the gold standard. At all events, if
 they are oppressed by reason of that standard they
 can relieve themselves at any time by paying up. If
-they do not pay and are solvent, it must be because
+<span class="pagenum" id="Page_33">[Pg 33]</span>they do not pay and are solvent, it must be because
 they find it to their advantage to endure these so-called
 oppressions a while longer. It is safe to say
 that all these mortgages would be called in on the
 first sign of a change in the monetary standard. The
 tightness of money in such an event may be imagined,
-but can hardly be described.
+but can hardly be described.</p>
 
 
-NATIONAL DEBTS.
+<h3 id="NATIONAL_DEBTS">
+  NATIONAL DEBTS.
+</h3>
 
-It is insisted that national and State debts are enhanced
+<p>It is insisted that national and State debts are enhanced
 by the prevalence of the single gold standard.
 To prove this we are asked to compare the low prices
 of the present day with prices of past times. Does
 not that prove that the bondholder gets more value
 now than he bargained for, and hence that the taxpayer
-pays more?
+pays more?</p>
 
-No, it does not. Bondholders are entitled to share
+<p>No, it does not. Bondholders are entitled to share
 with others the advantages of low prices of manufactured
 goods resulting from new inventions and facilities
 for production and transportation. As to products
@@ -1193,13 +1570,13 @@ why should we shed tears over national and State
 debts, seeing that ours are nearly all paid? Let the
 crocodiles of Europe weep over the enhanced burden
 of national debts if there be any such enhancement
-due to the gold standard, which I take leave to deny.
+due to the gold standard, which I take leave to deny.</p>
 
-Suppose it were true that national and State debts
+<p>Suppose it were true that national and State debts
 were enhanced in the manner alleged, would that be
 a reason for changing the standard of value for the
 countless daily transactions of business? The bank
-clearings of seventy-nine cities in the United States
+<span class="pagenum" id="Page_34">[Pg 34]</span>clearings of seventy-nine cities in the United States
 for the week ending May 20 amounted to $1,165,478,664,
 which is about double the interest-bearing debt
 of the nation. Add to this the payments of wages
@@ -1207,18 +1584,20 @@ and the retail transactions that are not embraced in
 clearing-house returns, and then multiply the whole
 by the fifty-two weeks of the year and you will see
 how large a cannon you are loading to kill a mosquito
-and what a tremendous recoil it must have.
+and what a tremendous recoil it must have.</p>
 
 
+<hr class="chap x-ebookmaker-drop">
+<div class="chapter">
+  <h2 class="nobreak" id="A_FEW_WORDS_MORE_ON_THE_COINAGE">
+    A FEW WORDS MORE ON THE COINAGE
+    ACT OF 1873.
+  </h2>
+  <p class="smcap center size-l">From the N. Y. Evening Post, July 3, 1893.</p>
+</div>
 
 
-A FEW WORDS MORE ON THE COINAGE
-ACT OF 1873.
-
-<sc>From the N. Y. Evening Post, July 3, 1893.</sc>
-
-
-A correspondent for whom we have a good deal of
+<p class="p2">A correspondent for whom we have a good deal of
 respect writes to us to remonstrate once more against
 the Silver-Demonetizing Act of 1873. “Just as soon
 as it was discovered,” says this writer, “that bimetallism
@@ -1232,13 +1611,13 @@ had fallen in price more than 5d. per ounce. When the
 Act of 1873 was passed, the London quotation for silver
 was 59¾d. When Mr. Bland introduced his bill
 (November, 1877), the quotation was 54½d. But that
-is not very important now.
+is not very important now.</p>
 
-The assumption that “the people” had “a right”
+<p>The assumption that “the people” had “a right”
 which was “unwittingly” taken from them embraces
 a congeries of errors which need to be exposed—all
 the more because they are honestly entertained. In
-the first place, who are “the people” who had a right
+<span class="pagenum" id="Page_35">[Pg 35]</span>the first place, who are “the people” who had a right
 that was unwittingly taken from them? Of course,
 they were the people of the United States. How do
 we know what the people of the United States want
@@ -1248,9 +1627,9 @@ can be ascertained. Now, what do we find as to this
 Act of 1873 demonetizing silver? It was passed by a
 Congress which was the sole organ of the people as
 to such matters—passed by a vote unanimous in one
-branch and nearly unanimous in the other.
+branch and nearly unanimous in the other.</p>
 
-“But <i>we</i> did not understand it,” says somebody
+<p>“But <i>we</i> did not understand it,” says somebody
 who was not a member of Congress. It was not
 necessary that you should understand it. This would
 be a queer country if it were necessary that all the
@@ -1266,16 +1645,16 @@ you live prescribed that your representative in Congress
 should act for you. It did not even require
 that <i>he</i> should understand it, but as a matter of fact
 he did understand it, because it was explained to him
-by public officers and also in public debate.
+by public officers and also in public debate.</p>
 
-If we could get an impartial jury from another
+<p>If we could get an impartial jury from another
 country or another planet to try this question, that
 jury would be bound to decide that “the people”
 passed that Act of 1873 in its entirety, in the only way
 they ever pass an act applicable to the whole Union.
 The impartial jury would probably add that since
 the people had had twenty years in which to remonetize
-silver, and had not done so, but on the contrary
+<span class="pagenum" id="Page_36">[Pg 36]</span>silver, and had not done so, but on the contrary
 had voted down propositions of that kind <i>four times</i>
 in the popular branch of Congress, the evidence was
 conclusive that they were <i>not</i> misrepresented by the
@@ -1292,9 +1671,9 @@ down on the 24th of March, 1892, by voting against
 a parliamentary motion made by Mr. Bland. The
 majority against Mr. Bland was only two votes in
 this case—150 to 148—but it was sufficient for the
-purpose.
+purpose.</p>
 
-But we are told that “a right” was taken away
+<p>But we are told that “a right” was taken away
 from the people when the Act of 1873 was passed,
 and the implication is that they have been
 vainly struggling to recover this right for twenty
@@ -1311,10 +1690,10 @@ had the same right to repeal as to enact. It is
 not even affirmed that this was a valuable right,
 although that is implied. A man may have a legal
 right to two wives, but it may be an injury to him.
-He may have a legal right to get drunk, but that can
-hardly be considered valuable.
+<span class="pagenum" id="Page_37">[Pg 37]</span>He may have a legal right to get drunk, but that can
+hardly be considered valuable.</p>
 
-Was this right of coinage, of which the people
+<p>Was this right of coinage, of which the people
 were deprived, a moral right? Moral rights are
 matters of opinion and of dispute, but it may be
 affirmed with confidence that the existence of a
@@ -1336,9 +1715,9 @@ it would be to claim this as a religious right. We
 may add that if this is a moral right, it belongs to all
 mankind, seeing that they have all had silver money
 at one time or another. It is surprising that so few
-recognize it as a right or set up any claim to it.
+recognize it as a right or set up any claim to it.</p>
 
-Finally we are told that this right had been taken
+<p>Finally we are told that this right had been taken
 from the people “unwittingly.” We repeat that ours
 would be a very queer country if no law could be
 passed till everybody understood it. There has
@@ -1348,7 +1727,7 @@ in Alaska. How many people knew what that bill
 was before it was passed? How many know
 what it is now? Even the lawyers who are
 discussing it before the Paris Tribunal do not
-agree in their understanding of it. Science has not
+<span class="pagenum" id="Page_38">[Pg 38]</span>agree in their understanding of it. Science has not
 yet devised any means to compel people to know
 what is going on in Congress. The difficulties of
 forcing such knowledge upon ten or twelve millions
@@ -1356,9 +1735,9 @@ of voters, large numbers of whom do not speak English
 or read and write any language, and still larger
 numbers of whom know nothing of finance, and
 never could by any possibility learn anything of it,
-are simply appalling.
+are simply appalling.</p>
 
-Even in the case of those who make some pretensions
+<p>Even in the case of those who make some pretensions
 to scientific attainment an attempt to make
 them understand the bills before Congress would be
 quite herculean. Suppose that our correspondent
@@ -1378,14 +1757,14 @@ on the ground that the silver dollar was worth two
 cents more than the gold dollar, and that it was impossible
 to have two dollars of different values. He
 afterwards said that he did not understand this particular
-part of the bill.
+part of the bill.</p>
 
-What happened in Mr. Kelley’s case would be still
+<p>What happened in Mr. Kelley’s case would be still
 more likely to happen in the case of talesmen hastily
 summoned from the body of the people as assistant
 Congressmen. Our forefathers, anticipating all the
 difficulties attendant upon the endeavor to force all
-the people to understand all the bills before Congress
+<span class="pagenum" id="Page_39">[Pg 39]</span>the people to understand all the bills before Congress
 at all stages, wisely provided that such antecedent
 knowledge should be dispensed with, but they took
 steps to give facilities for such knowledge. If it is a
@@ -1393,9 +1772,9 @@ defect of our system that laws are passed “unwittingly,”
 it is a defect which we share with all other
 governments, and it seems to us to be inherent in the
 representative system. At all events, we see no
-present cure for it.
+present cure for it.</p>
 
-It thus appears that our correspondent, for whom,
+<p>It thus appears that our correspondent, for whom,
 as we have said, we entertain much respect, has, in a
 single sentence, used three phrases, all of them important,
 and carrying with them the gist of the debate
@@ -1420,4 +1799,7 @@ it.) In using these phrases in this way he has
 that he was not aware that he was doing so. We have
 taken some pains to point out his unfounded assumptions
 because we know that he represents a good
-many people who, like himself, are honestly in error.
+many people who, like himself, are honestly in error.</p>
+
+</body>
+</html>
