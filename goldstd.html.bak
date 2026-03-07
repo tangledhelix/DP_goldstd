@@ -321,7 +321,7 @@ p.drop-cap:first-letter {
 .width1 { max-width: 28em; margin: auto; }
 
 .lh-1 { line-height: 150%; }
-.pad-1 { margin-top: 3em; }
+.pad-1 { margin-top: 1.5em; }
 
 /* Illustration classes */
 .illowe2 {width: 2em;}
@@ -612,7 +612,7 @@ matter the example of the older countries of Europe.
 and the ruling spirit. At his instance the ratio
 of 15 was adopted, and there is no room to doubt
 that this was very close to the true market ratio at
-the time. The English ratio of <abbr title="15 and one-seventh">15⅐</abbr> ceased to be
+the time. The English ratio of <abbr title="15 and one-seventh" id="TN1">15⅐</abbr> ceased to be
 operative, as we have seen, because it was too high.
 France was at that time under the régime of irredeemable
 paper. Consequently nothing could be
@@ -1803,6 +1803,20 @@ that he was not aware that he was doing so. We have
 taken some pains to point out his unfounded assumptions
 because we know that he represents a good
 many people who, like himself, are honestly in error.</p>
+
+<div class="transnote">
+<h2 class="nobreak">Transcriber’s Note</h2>
+
+<p>
+Some inconsistencies in spelling, hyphenation, and punctuation have been
+retained.
+</p>
+
+<ul>
+<li><abbr title="page">p.</abbr> 9: changed as-printed “15 1-7” to “15⅐”, based on context.</li>
+</ul>
+
+</div>
 
 </body>
 </html>

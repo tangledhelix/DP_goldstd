@@ -14,8 +14,6 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
 
 ### Things to revisit ###
 
-* [ ] Example item
-
 ### Project manager notes ###
 
 The full title is **Gold standard: how it came into the world and why it will stay. A historical sketch with some practical reflections thereon**. The original images are from [TIA](https://archive.org/details/goldstandardhowi00whit/mode/2up).
