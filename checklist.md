@@ -137,19 +137,19 @@ Instructions for `/* */` and `/# #/` blocks:
 ```
 
 ### Apply Scanno Checks
-* [ ] Use `Tools → Stealth Scannos`
-  * [ ] Search based on `en-common.json`. Work through the list.
-  * [ ] Search based on `misspelled.json`. Work through the list.
-  * [ ] Search based on `regex.json`. Work through the list.
-* [ ] `Tools → Jeebies`. Examine its report of possible `he/be` errors.
-* [ ] `Tools → Regex Library`. Run my custom `misc_checks.json`.
+* [x] Use `Tools → Stealth Scannos`
+  * [x] Search based on `en-common.json`. Work through the list.
+  * [x] Search based on `misspelled.json`. Work through the list.
+  * [x] Search based on `regex.json`. Work through the list.
+* [x] `Tools → Jeebies`. Examine its report of possible `he/be` errors.
+* [x] `Tools → Regex Library`. Run my custom `misc_checks.json`.
 
 ### Apply Bookloupe
-* [ ] `Tools → Bookloupe`.
+* [x] `Tools → Bookloupe`.
 
 ### Spelling and Distance Checks
-* [ ] Use `Tools → Spelling`. Proceed through the document, correcting words or adding them to the project dictionary as appropriate.
-* [ ] Use `Tools → Word Distance Check`.
+* [x] Use `Tools → Spelling`. Proceed through the document, correcting words or adding them to the project dictionary as appropriate.
+* [x] Use `Tools → Word Distance Check`.
 
 ### Fix Sidenotes
 * [ ] Read the [discussion](https://www.pgdp.net/wiki/PPTools/Guiguts/Fixup#Sidenotes). Step through sidenotes with: Search & Replace of `[S`, not regex, not whole word, ignore case. Click `Search` to find each Sidenote.
