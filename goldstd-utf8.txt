@@ -11,8 +11,8 @@ HOW IT CAME INTO THE WORLD AND WHY IT WILL STAY.
 A HISTORICAL SKETCH WITH SOME PRACTICAL
 REFLECTIONS THEREON.
 
-<i>AN ADDRESS BEFORE THE CONGRESS OF BANKERS AND
-FINANCIERS AT CHICAGO, JUNE 20, 1893.</i>
+_AN ADDRESS BEFORE THE CONGRESS OF BANKERS AND
+FINANCIERS AT CHICAGO, JUNE 20, 1893._
 
 BY
 
@@ -29,9 +29,9 @@ x/
 
 
 /x
-<i>Copies of this pamphlet may be obtained at 5 cents a copy, postpaid.
-Address</i> THE EVENING POST PUBLISHING COMPANY,
-<i>206–210 Broadway, New York City</i>.
+_Copies of this pamphlet may be obtained at 5 cents a copy, postpaid.
+Address_ THE EVENING POST PUBLISHING COMPANY,
+_206–210 Broadway, New York City_.
 x/
 
 
@@ -202,10 +202,10 @@ of this act being in the following words:
 /#
 “XI. And whereas at various times heretofore the
 coins of this realm of gold and silver have been equally
-a legal tender for payments to any amount, and <i>great
+a legal tender for payments to any amount, and _great
 inconvenience has arisen from both those precious metals
 being concurrently the standard measure of value and
-equivalent for property</i>; and it is expedient that the
+equivalent for property_; and it is expedient that the
 gold coin made according to the indentures of the
 Mint should henceforth be the sole standard measure
 of value and legal tender for payment, without any
@@ -250,7 +250,7 @@ be successful, they passed the law which I have
 quoted. That law, in substance, remains in force to
 the present time, and we may be sure that it would
 not have lasted so long if it were not a good thing
-<i>per se</i>.
+_per se_.
 
 
 THE GOLD STANDARD IN THE UNITED
@@ -374,7 +374,7 @@ piece.
 It became apparent to everybody that if full-weight
 silver coins would not circulate on the ratio of 16 to
 1, while those of light weight would circulate, then it
-would be safe to <i>make</i> minor coins (halves, quarters,
+would be safe to _make_ minor coins (halves, quarters,
 etc.), designedly of light weight on Government account,
 of limited legal tender. There would be no
 profit in exporting such coins, because they would
@@ -394,7 +394,7 @@ prior to 1878? I never did.
 THE LAW OF 1873.
 
 Under these circumstances, the gold standard existing
-<i>de facto</i>, and there being no silver except light-weight
+_de facto_, and there being no silver except light-weight
 subsidiary coins, our mint authorities, the only
 people who took any interest in the subject, began
 even before the war to recommend that the single
@@ -406,7 +406,7 @@ more than the gold dollar and 8 cents more than two
 half dollars. He recommended that it should either
 be dropped from the list of coins or reduced in weight
 so as to correspond with the subsidiary coins. He
-considered that gold was <i>de facto</i> the standard of
+considered that gold was _de facto_ the standard of
 value, and he recommended that the law should conform
 to the fact. But the nation had more exciting
 topics to discuss in 1861 than those relating to coinage.
@@ -447,7 +447,7 @@ of the silver dollar was specially discussed in the
 House. Any candid person must see that the reason
 why the discontinuance of the silver dollar attracted
 so little notice was that this coin had been discontinued
-<i>de facto</i> in 1834, when the ratio of 16 to 1 was
+_de facto_ in 1834, when the ratio of 16 to 1 was
 adopted. I have given reasons for thinking that this
 ratio was adopted designedly to expel the silver dollar
 from circulation. At all events, it did so, to the
@@ -487,10 +487,10 @@ d’or, ducats, crowns, &c., passing as commercial
 money. The question of a reform of the currency
 had been under discussion by the economists and publicists
 of Germany for nearly ten years, but until 1868
-the question under debate was a question of <i>uniformity</i>
+the question under debate was a question of _uniformity_
 of money rather than of the metallic standard. Dr.
 Soëtbeer had indeed published two articles in 1863 and
-1864 in the <i>Vierteljahrschrift für Volkswirthschaft</i> on
+1864 in the _Vierteljahrschrift für Volkswirthschaft_ on
 the gold standard, but it was not until after the Paris
 Monetary Conference of 1867 that the commercial
 classes began to take an active interest in the question.
@@ -605,7 +605,7 @@ from 1879 to 1893 it has been 13d.
 
 The simple truth is that Germany was driven to the
 gold standard, just as Great Britain and the United
-States had been previously, by the <i>inconveniencies</i> of
+States had been previously, by the _inconveniencies_ of
 silver money. These inconveniencies manifested
 themselves with some variations of detail in different
 countries, but all grew out of the ponderousness of
@@ -668,8 +668,8 @@ FRENCH MONETARY LAW OF 1803.
 
 I have in another place made a study of the documents
 and debates which preceded and led up to the
-French Monetary Law of 1803 (see <i>Political Science
-Quarterly</i>, June, 1891). The substance is that these
+French Monetary Law of 1803 (see _Political Science
+Quarterly_, June, 1891). The substance is that these
 learned and patriotic men, without exception, considered
 a double standard impossible and any attempt
 to establish it disastrous. They accordingly determined
@@ -961,10 +961,10 @@ the standard of nations of advanced civilization.
 says this report, “in all trade on a great scale as early
 as the fourteenth and fifteenth centuries, even though
 silver was then the standard in all domestic exchanges.
-* * * <i>In every age there is some metal
+* * * _In every age there is some metal
 dominant in the industry of the world which forces its
 way with elemental strength in the face of any public
-regulation, and in our day gold is that metal.</i>”
+regulation, and in our day gold is that metal._”
 
 This is as good a statement as can be made of the
 reasons why not only Austria but all the other nations
@@ -1062,7 +1062,7 @@ debtors. The fact that they are not bankrupt implies
 that they have more due to them in one way and
 another than they owe. I am proud to believe that
 the vast majority of my countrymen are of this class,
-<i>i. e.</i>, of the creditor class. I take it that we are not
+_i. e._, of the creditor class. I take it that we are not
 legislating specially for bankrupts. Certainly it
 would not be wise to change our standard of value
 for their accommodation. Such a change would produce
@@ -1148,7 +1148,7 @@ turn the whole business of the country upside down
 and change the rating of all other contracts perhaps
 35 per cent. But the average duration of mortgages
 is considerably less than five years. The Topeka
-<i>Capitol</i> newspaper a year or two ago made a
+_Capitol_ newspaper a year or two ago made a
 special investigation of the records of a number of
 agricultural counties in Kansas, and found that more
 mortgages were paid off than were put on within the
@@ -1252,7 +1252,7 @@ Congress which was the sole organ of the people as
 to such matters--passed by a vote unanimous in one
 branch and nearly unanimous in the other.
 
-“But <i>we</i> did not understand it,” says somebody
+“But _we_ did not understand it,” says somebody
 who was not a member of Congress. It was not
 necessary that you should understand it. This would
 be a queer country if it were necessary that all the
@@ -1266,7 +1266,7 @@ not understanding it took nothing from its validity or
 its equity. The frame of government under which
 you live prescribed that your representative in Congress
 should act for you. It did not even require
-that <i>he</i> should understand it, but as a matter of fact
+that _he_ should understand it, but as a matter of fact
 he did understand it, because it was explained to him
 by public officers and also in public debate.
 
@@ -1278,9 +1278,9 @@ they ever pass an act applicable to the whole Union.
 The impartial jury would probably add that since
 the people had had twenty years in which to remonetize
 silver, and had not done so, but on the contrary
-had voted down propositions of that kind <i>four times</i>
+had voted down propositions of that kind _four times_
 in the popular branch of Congress, the evidence was
-conclusive that they were <i>not</i> misrepresented by the
+conclusive that they were _not_ misrepresented by the
 Congress which passed the Act of 1873. They voted
 down the remonetization of silver on the 21st of February,
 1878, when they substituted the Allison Bill
