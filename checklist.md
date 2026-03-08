@@ -407,7 +407,7 @@ For each image:
 * [x] Use `HTML → Auto-Illustrations`. This will help add the images to the book.
 * [x] Page through entire HTML book making sure that each image is being loaded correctly. Test each thumbnail if used.
 * [x] If any images were modified substantially (including removing a library sticker or stamp), add a TN. Place the new image in the public domain in the TN. This is a PG requirement.
-* [ ] If fabricating your own cover, add the TN as noted in [Easy_Epub/Cover](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Easy_Epub/Cover).
+* [x] If fabricating your own cover, add the TN as noted in [Easy_Epub/Cover](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Easy_Epub/Cover).
 
 ### Check "things to revisit"
 * [x] Check revisit list for anything left for the HTML version
@@ -462,7 +462,7 @@ Perform these validation steps before submitting your book. Validation is also h
 * [x] Use `HTML → HTML Link Checker`. Fix any reported problems.
 
 ### Compare text and HTML
-* [ ] Compare files using [ppcomp](https://www.pgdp.net/ppwb/index.php) and make any adjustments needed.
+* [x] Compare files using [ppcomp](https://www.pgdp.net/ppwb/index.php) and make any adjustments needed.
   * Suppress word join (NoBreak) because GG2 uses them for footnotes
   * TODO: try the ppcomp built into Guiguts.
 
@@ -475,8 +475,8 @@ To use multi-touch gestures on iPhone/iPad Simulator, hold the Option key.
 This lets you do pinch gestures. To track two fingers together (no pinch),
 e.g. for scrolling, use Shift-Option instead.
 
-* [ ] Scroll through in multiple browsers (Safari, Chrome, Firefox?)
-* [ ] Pay particular attention to complex items like tables, poetry
+* [x] Scroll through in multiple browsers (Safari, Chrome, Firefox?)
+* [x] Pay particular attention to complex items like tables, poetry
 
 ## Ebook generation
 

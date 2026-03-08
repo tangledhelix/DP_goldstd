@@ -149,7 +149,7 @@ blockquote {
 
 /* Illustration classes */
 .illowe2 {width: 2em;}
-.illowe6 {width: 6em;}
+.illowe12 {width: 12em;}
     </style>
 </head>
 <body>
@@ -1428,7 +1428,7 @@ and what a tremendous recoil it must have.</p>
 <hr class="chap x-ebookmaker-drop">
 <div class="chapter">
 
-<figure class="figcenter illowe6" id="image034">
+<figure class="figcenter illowe12" id="image034">
   <img class="w100" src="images/image034.png" alt="" data-role="presentation">
 </figure>
 
