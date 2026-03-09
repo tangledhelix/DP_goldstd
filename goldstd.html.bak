@@ -150,6 +150,8 @@ blockquote {
 /* Illustration classes */
 .illowe2 {width: 2em;}
 .illowe12 {width: 12em;}
+
+.nonitalic { font-style: normal; }
     </style>
 </head>
 <body>
@@ -515,7 +517,7 @@ for more than twenty years, and will be deprived
 forever unless they discover the cause of the
 evil and apply the remedy to its root.—[Speech of
 Senator Benton of Missouri, quoted by Louis R.
-Ehrich in his ‘Question of Silver.’]”</p>
+Ehrich in his ‘<cite class="nonitalic">Question of Silver</cite>.’]”</p>
 </blockquote>
 
 <p>The effect that was predicted was abundantly
@@ -585,7 +587,7 @@ subsidiary coins, our mint authorities, the only
 people who took any interest in the subject, began
 even before the war to recommend that the single
 gold standard should be adopted in law as it had been
-adopted in fact. Ex-Gov. Pollock, Director of the
+adopted in fact. <abbr title="Ex-Governor">Ex-Gov.</abbr> Pollock, Director of the
 Mint, in his report for 1861 called attention to the incongruity
 of a silver dollar that was worth 3.10 cents
 more than the gold dollar and 8 cents more than two
@@ -788,10 +790,10 @@ selling silver in 1879, and the Latin Union countries
 had closed their mints to silver three years earlier,
 <span class="pagenum" id="Page_18">[Pg 18]</span>whereas silver continued to decline all the same.
 The London price for 1879 (average) was <abbr title="51 and one-fourth pence">51¼d.</abbr> per
-ounce. It is now 38d. The decline has been greater
+ounce. It is now <abbr title="38 pence">38d.</abbr> The decline has been greater
 since Germany stopped selling than it was before.
-From 1871 to 1879 the aggregate decline was 9d.;
-from 1879 to 1893 it has been 13d.</p>
+From 1871 to 1879 the aggregate decline was <abbr title="9 pence">9d.</abbr>;
+from 1879 to 1893 it has been <abbr title="13 pence">13d.</abbr></p>
 
 <p>The simple truth is that Germany was driven to the
 gold standard, just as Great Britain and the United
@@ -1337,7 +1339,7 @@ commodities, nor can I admit that such a decline
 would be a bad thing. None of us, when we go to
 market, complain that prices of food, fuel, clothing,
 <abbr>etc.</abbr>, are too low. <abbr>Mr.</abbr> David A. Wells has written a
-<span class="pagenum" id="Page_32">[Pg 32]</span>book entitled “Recent Economic Changes,” which
+<span class="pagenum" id="Page_32">[Pg 32]</span>book entitled “<cite class="nonitalic">Recent Economic Changes</cite>,” which
 accounts for the fall in price of all staple articles of
 commerce which really have fallen during the past
 twenty years, accounts for it by the increased facilities
@@ -1424,8 +1426,6 @@ by the fifty-two weeks of the year and you will see
 how large a cannon you are loading to kill a mosquito
 and what a tremendous recoil it must have.</p>
 
-
-<hr class="chap x-ebookmaker-drop">
 <div class="chapter">
 
 <figure class="figcenter illowe12" id="image034">
@@ -1450,7 +1450,7 @@ pleased to call him, attempted to restore to the people
 a right that had been unwittingly taken from them.”
 The record shows that neither <abbr>Mr.</abbr> Bland nor anybody
 else attempted to remonetize silver until after it
-had fallen in price more than 5d. per ounce. When the
+had fallen in price more than <abbr title="5 pence">5d.</abbr> per ounce. When the
 Act of 1873 was passed, the London quotation for silver
 was <abbr title="59 and three-fourths pence">59¾d.</abbr> When <abbr>Mr.</abbr> Bland introduced his bill
 (November, 1877), the quotation was <abbr title="54 and a half pence">54½d.</abbr> But that
