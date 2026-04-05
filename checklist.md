@@ -527,9 +527,9 @@ Don't necessarily have to do *all* of these, but these are what I have.
 * [x] Tablet
   * [x] Kindle (Android)
   * [x] Google Play Books - Android (Dropbox)
-* [ ] E-ink
+* [x] E-ink
   * [x] Kobo Libra Colour (converted-kepub)
-  * [ ] Kindle Colorsoft
+  * [x] Kindle Colorsoft
 
 ## Smooth Reading
 
@@ -544,13 +544,13 @@ Submit for a decent length of time, up to the maximum. Check what's in `ebooks/`
 * [x] Go to [project page](https://www.pgdp.net/c/project.php?id=projectID624c94ea72f43), select SR time period, upload `goldstd-sr.zip`
 * [x] Subscribe to “user uploads a SR report” item
 * [x] Update my Trello project board with due date, set card to SR status
-* [ ] If time permits, smooth read it myself as well
+* [x] If time permits, smooth read it myself as well
 
 ### Process SR feedback
-* [ ] After SR is finished, processed SR feedback into project.
-* [ ] Add **anonymized** files to git, e.g. `goldstd-smoothread01.txt`
-* [ ] Thank your smooth readers with a PM!
-* [ ] If there were changes from the SR round, re-do final checks from above (validators etc)
+* [x] After SR is finished, processed SR feedback into project.
+* [x] Add **anonymized** files to git, e.g. `goldstd-smoothread01.txt`
+* [x] Thank your smooth readers with a PM!
+* [x] If there were changes from the SR round, re-do final checks from above (validators etc)
 
 ## Upload the Finished Project
 
